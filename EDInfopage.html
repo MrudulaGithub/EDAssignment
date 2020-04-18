@@ -6,39 +6,76 @@
 </head>
 <p>
 <h1> Eradicate Diabetes Patient Disclosure Form</h1>
-<h4> Please fill out the details below</h4>
+Please fill out the details below
 
 <p>
 <h2> Patient Basic Info </h2>
 <form>
-  <label for="fname"><b>First name</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name</label><br>
-  <input type="text" id="lname" name="lname">
-</form>
+  <label for="fname">First name</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name</label>
+  <input type="text" id="lname" name="lname"><br><br><br>
 
-<h4> Gender </h4>
-<form>
+    <label>Gender &nbsp;&nbsp; </label>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label>
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label>
   <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
+  <label for="other">Other</label><br><br><br>
+
+    <label for="birthday"> DOB &nbsp;&nbsp;</label>
+    <input type="date" id="birthday" name="birthday"><br><br><br>
+
+    <label for="height"> Height(ft)</label>
+    <input type="text" id="height" name="height"><br><br>
+    <label for="weight"> Weight(kgs)</label>
+    <input type="text" id="weight" name="weight"><br><br><br>
+
+    <label for="ethnicity"> Ethnicity(Race) </label>
+    <input type="ethnicity" id="ethnicity" name="ethnicity"><br><br>
+
 </form>
-
-    <h4> DOB</h4>
-
-
-    <h4> Height(ft)</h4>
-
-
-
-    <h4>Weight(Kgs)</h4>
 
 <p>
 <h2> Patient Medical History</h2>
-<h5> Please select(check) the ones applicable  </h5>
-</p>
+Please select(check) the ones applicable to you<br><br>
+
+<form>
+    <input type="checkbox" id="hypertension" name="hypertension">
+<label for="hypertension"> Hypertension(High BP) </label>
+    <input type="checkbox" id="thyroid" name="thyroid">
+<label for="thyroid"> Thyroid </label><br>
+    <input type="checkbox" id="hypotension" name="hypotension">
+<label for="hypotension"> Hypotension(Low BP)&nbsp; </label>
+    <input type="checkbox" id="pcod" name="pcod">
+<label for="pcod"> PCOD </label><br>
+    <input type="checkbox" id="heart" name="heart">
+<label for="heart"> Heart Disease &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="checkbox" id="pcos" name="pcos">
+<label for="pcos"> PCOS </label><br>
+    <input type="checkbox" id="liver" name="liver">
+<label for="liver"> Liver Disease </label><br>
+    <input type="checkbox" id="kidney" name="kidney">
+<label for="kidney"> Kidney Disease </label><br>
+    <input type="checkbox" id="cancer" name="cancer">
+<label for="cancer"> Cancer </label><br><br><br>
+
+
+
+    <label> Medications</label>
+    <textarea cols="50" rows="5"></textarea><br><br><br>
+
+    <label> Food Habits</label>
+    <textarea cols="50" rows="5"></textarea><br><br><br>
+
+    <label> Physical Activities</label>
+    <textarea cols="50" rows="5"></textarea><br><br><br>
+
+    <label> Family History</label>
+    <textarea cols="50" rows="5"></textarea><br><br><br>
+
+
+</form>
 </body>
 </html>
